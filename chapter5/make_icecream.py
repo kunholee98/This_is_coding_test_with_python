@@ -6,9 +6,9 @@ def dfs(i,j):
         dfs(i+1,j)
     if j < M-1 and ice[i][j+1] == 0:    # 만약 오른쪽에 위치한 요소가 값이 0 이라면 위치를 바꾸어 실행. j가 M보다 커질 순 없으므로 조건 추가
         dfs(i,j+1)
-    if i > 0 and ice[i-1][j] == 0:
+    if i > 0 and ice[i-1][j] == 0:      # 위로 이동
         dfs(i-1,j)
-    if j > 0 and ice[i][j-1] == 0:
+    if j > 0 and ice[i][j-1] == 0:      # 왼쪽으로 이동
         dfs(i,j-1)
 
 
