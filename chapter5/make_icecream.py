@@ -7,11 +7,6 @@ def dfs(ice,i,j,N,M):
     if j < M-1 and ice[i][j+1] == 0:    # 만약 오른쪽에 위치한 요소가 값이 0 이라면 위치를 바꾸어 실행. j가 M보다 커질 순 없으므로 조건 추가
         dfs(ice,i,j+1,N,M)
 
-
-
-
-
-
 # N,M 값 입력받고, 얼음판 모양도 입력받음. (0이 뚫려있는 부분, 1이 막혀있는 부분)
 N,M = map(int,input("N, M: ").split())
 ice = []
