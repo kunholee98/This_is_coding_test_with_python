@@ -41,4 +41,5 @@ for i in range(1,N+1):
         maximum = max(maximum,way[i])
 print(cnt, maximum)
         
-# 다익스트라 알고리즘으로 푸는 중입니다.
+# 다익스트라 알고리즘으로 풀었습니다!
+# 하지만 연습이 더 필요할 것 같습니다 :(
