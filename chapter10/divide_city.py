@@ -23,6 +23,7 @@ for i in range(M):
     a,b,c = map(int,sys.stdin.readline().split())
     table.append((c,a,b))
 
+# 도로를 가장 짧은 것부터 확인해보면서 최소 신장 트리 만들기
 table.sort()
 large = 0
 result = 0
